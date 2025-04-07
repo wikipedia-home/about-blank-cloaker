@@ -40,8 +40,8 @@
 
     <script>
         function openAboutBlank() {
-            const newWindow = window.open("_self");
-            const url = "https://6ip.6ip.it/";
+            let url = prompt("Enter link to cloak:");
+            const newWindow = window.open();
 
             if (url) {
                 var iframe = document.createElement("iframe")
